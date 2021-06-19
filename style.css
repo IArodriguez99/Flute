@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin: auto;
+    background: linear-gradient(to right, #ec6f66, #f3a183); 
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.flute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    user-select: none;
+}
+
+.play-sound-btn{
+    animation: fadeIn  linear 15s;
+}
+
+@keyframes fadeIn {
+    0%  {opacity:0;}
+    15% {opacity: 0.05;}
+    25% {opacity: 0.10;}
+    45% {opacity: 0.20;}
+    55% {opacity: 0.35;}
+    65% {opacity: 0.45;}
+    75% {opacity: 0.55;}
+    85% {opacity: 0.75;}
+    95% {opacity: 0.85;}
+    100%  {opacity:1;}
+  }
